@@ -1,0 +1,22 @@
+{
+    "go to work": {
+        "duration": "15 mins",
+        "completed": true
+    },
+    "make presentation": {
+        "duration": "15 mins",
+        "completed": false
+    },
+    "get new task": {
+        "duration": "5 mins",
+        "completed": false
+    },
+    "come home": {
+        "duration": "15 mins",
+        "completed": false
+    },
+    "get some rest": {
+        "duration": "30 mins",
+        "completed": false
+    }
+}
