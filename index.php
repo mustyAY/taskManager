@@ -32,7 +32,7 @@ if (file_exists("tasks.json")) {
         <div style="margin-bottom: 20px;">
             <form action="change_status.php" method="post" style="display: inline-block;">
                 <input type="hidden" name="task_name" value="<?= $taskName ?>">
-                <input type="checkbox" <?= $task["completed"] ? "checked" : "" ?>>
+                <input type="checkbox" <?= $task["completed"] ? "checked" : "" ?> style="cursor: pointer;" >
             </form>
             <?= "{$taskName} for {$task["duration"]}" ?>
             <form action="delete.php" method="post" style="display: inline-block;">
